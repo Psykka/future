@@ -1,0 +1,16 @@
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.DS_Store
+.claude/settings.local.json
+.mcp.json
+
+# RAG — tudo gerado, não commitar
+scripts/node_modules/
+scripts/.cache/
+scripts/.lancedb/
+scripts/data/
+scripts/src/vault_index.json
+
+# Envs
+.env

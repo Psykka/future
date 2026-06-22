@@ -1,0 +1,7 @@
+{
+  "userIgnoreFilters": [
+    "scripts/",
+    "CLAUDE.md"
+  ],
+  "alwaysUpdateLinks": true
+}

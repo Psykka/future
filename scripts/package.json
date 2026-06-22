@@ -1,0 +1,28 @@
+{
+  "name": "vault-rag",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Busca full-text no vault Obsidian via Orama BM25",
+  "scripts": {
+    "reindex": "tsx src/vault_rag.ts reindex",
+    "search": "tsx src/vault_rag.ts search",
+    "dev": "tsx --env-file=\"../.env\" src/index.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^3.0.83",
+    "@ai-sdk/openai": "^3.0.73",
+    "@huggingface/transformers": "^4.2.0",
+    "@lancedb/lancedb": "^0.30.0",
+    "@orama/orama": "^3.0.0",
+    "ai": "^6.0.208",
+    "glob": "^13.0.6",
+    "js-yaml": "^4.1.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.5"
+  }
+}

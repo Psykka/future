@@ -1,0 +1,86 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "file:HOME",
+      "color": {
+        "a": 1,
+        "rgb": 16761095
+      }
+    },
+    {
+      "query": "file:CONSELHOS OR file:PESQUISAS OR file:PLANOS OR file:PRE-MORTEMS OR file:STEELMANS OR file:DOCUMENTOS OR file:NOTAS",
+      "color": {
+        "a": 1,
+        "rgb": 16740419
+      }
+    },
+    {
+      "query": "file:00-report-final",
+      "color": {
+        "a": 1,
+        "rgb": 2131481
+      }
+    },
+    {
+      "query": "path:council/ -file:00-report-final",
+      "color": {
+        "a": 1,
+        "rgb": 4367861
+      }
+    },
+    {
+      "query": "path:pesquisas/ -file:Steelman -file:Pré-mortem",
+      "color": {
+        "a": 1,
+        "rgb": 2533018
+      }
+    },
+    {
+      "query": "file:Steelman",
+      "color": {
+        "a": 1,
+        "rgb": 15277667
+      }
+    },
+    {
+      "query": "file:Pré-mortem",
+      "color": {
+        "a": 1,
+        "rgb": 13840175
+      }
+    },
+    {
+      "query": " path:planos/",
+      "color": {
+        "a": 1,
+        "rgb": 11225020
+      }
+    },
+    {
+      "query": "path:documentos/",
+      "color": {
+        "a": 1,
+        "rgb": 39423
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.40036363636364,
+  "lineSizeMultiplier": 1.00472727272727,
+  "collapse-forces": true,
+  "centerStrength": 0.602597402597403,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 500,
+  "scale": 0.2688817270105171,
+  "close": true
+}
