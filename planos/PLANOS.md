@@ -17,8 +17,18 @@ updated: AAAA-MM-DD
 
 ## 📋 Planos
 
-> [!note] Nenhum plano ainda
-> Use `/new-plano` para documentar o primeiro plano de ação.
+### 01 — Backlog de Validação
+
+> [!abstract] Kanban da Fase 0
+> Rastreia todas as pesquisas e decisões necessárias para validar a hipótese SST antes de construir.
+
+> [!success] Status: ativo
+> 1 item em execução (Reclamações dos softwares SST). MVP e produto bloqueados até dor validada.
+
+| Campo | Detalhe |
+|-------|---------|
+| Arquivo | [[planos/01-backlog-validacao\|Backlog de Validação]] |
+| Status | ativo |
 
 <!--
 PRÓXIMO PLANO — copie o bloco abaixo ao adicionar um novo plano

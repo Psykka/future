@@ -35,12 +35,15 @@ vault/
 │   ├── PESQUISAS.md           ← índice das notas de pesquisa
 │   ├── PRE-MORTEMS.md         ← índice das análises de pré-mortem
 │   ├── STEELMANS.md           ← índice das análises steelman
+│   ├── REALITY-CHECKS.md      ← índice das análises de reality check
 │   ├── dados/
 │   │   └── AAAA-MM-DD — Tema.md        ← notas de pesquisa de mercado/dados
 │   ├── pre-mortems/
 │   │   └── AAAA-MM-DD — Pré-mortem Tema.md
-│   └── steelmans/
-│       └── AAAA-MM-DD — Steelman Tema.md
+│   ├── steelmans/
+│   │   └── AAAA-MM-DD — Steelman Tema.md
+│   └── reality-checks/
+│       └── AAAA-MM-DD — Reality Check Tema.md
 ├── planos/
 │   ├── PLANOS.md              ← índice de todos os planos
 │   └── NN-slug-do-tema.md     ← numeração sequencial, ex: 01-plano-viabilidade.md
@@ -71,6 +74,9 @@ Cada pasta principal tem um arquivo de índice nomeado em maiúsculas com o nome
 |-------|------------------|
 | `council/` | `council/CONSELHOS.md` |
 | `pesquisas/` | `pesquisas/PESQUISAS.md` |
+| `pesquisas/pre-mortems/` | `pesquisas/PRE-MORTEMS.md` |
+| `pesquisas/steelmans/` | `pesquisas/STEELMANS.md` |
+| `pesquisas/reality-checks/` | `pesquisas/REALITY-CHECKS.md` |
 | `planos/` | `planos/PLANOS.md` |
 | `documentos/` | `documentos/DOCUMENTOS.md` |
 | `notas/` | `notas/NOTAS.md` |
@@ -199,21 +205,21 @@ Se qualquer resposta for "sim", atualizar `HOME.md` imediatamente — não aguar
 
 ### Skills disponíveis (usar proativamente)
 
-| Situação | Skill a usar |
-|----------|-------------|
-| Buscar contexto já documentado no vault | `vault-search` |
-| Pesquisar qualquer tema do projeto na web | `research-note` |
-| Documentar uma nova decisão ou caminho | `new-plano` |
-| **Fluxo GO/NO-GO: ver modos de falha** | `pre-mortem` → salva em `pesquisas/pre-mortems/` |
-| **Fluxo GO/NO-GO: ver upside máximo** | `steelman` → salva em `pesquisas/steelmans/` |
-| **Fluxo GO/NO-GO: pressure-test completo** | `new-council` → salva em `council/` |
-| Pressure-test avulso (sem salvar no vault) | `llm-council` |
-| **Antes de executar qualquer nova ideia ou ângulo** | `reality-check` → salva em `pesquisas/` |
-| **Revisão semanal do projeto** | `revisao-semanal` → briefing no chat |
-| **Fechar o loop de uma decisão passada** | `revisao-decisao` → atualiza o plano |
-| Corrigir formatação de nota para Obsidian | `obsidian-format` |
-| Salvar e publicar mudanças no GitHub | `vault-sync` |
-| Novas notas adicionadas → atualizar índice RAG | `rebuild-index` |
+| Situação                                            | Skill a usar                                     |
+| --------------------------------------------------- | ------------------------------------------------ |
+| Buscar contexto já documentado no vault             | `vault-search`                                   |
+| Pesquisar qualquer tema do projeto na web           | `research-note`                                  |
+| Documentar uma nova decisão ou caminho              | `new-plano`                                      |
+| **Fluxo GO/NO-GO: ver modos de falha**              | `pre-mortem` → salva em `pesquisas/pre-mortems/` |
+| **Fluxo GO/NO-GO: ver upside máximo**               | `steelman` → salva em `pesquisas/steelmans/`     |
+| **Fluxo GO/NO-GO: pressure-test completo**          | `new-council` → salva em `council/`              |
+| Pressure-test avulso (sem salvar no vault)          | `llm-council`                                    |
+| **Antes de executar qualquer nova ideia ou ângulo** | `reality-check` → salva em `pesquisas/`          |
+| **Revisão semanal do projeto**                      | `revisao-semanal` → briefing no chat             |
+| **Fechar o loop de uma decisão passada**            | `revisao-decisao` → atualiza o plano             |
+| Corrigir formatação de nota para Obsidian           | `obsidian-format`                                |
+| Salvar e publicar mudanças no GitHub                | `vault-sync`                                     |
+| Novas notas adicionadas → atualizar índice RAG      | `rebuild-index`                                  |
 
 > **Fluxo para decisões irreversíveis:**
 > `/reality-check` (clareza estratégica) → `/steelman` → `/pre-mortem` → `/new-council` se ainda houver dúvida → `/new-plano` (com `tipo-decisao: irreversivel`)

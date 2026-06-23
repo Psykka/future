@@ -127,9 +127,9 @@ Tamanho total: 500–700 palavras. Seja pragmático, não teórico.
 
 ### PASSO 4 — Salvar e indexar
 
-#### a) Criar a nota em `pesquisas/`
+#### a) Criar a nota em `pesquisas/reality-checks/`
 
-Nome: `pesquisas/YYYY-MM-DD — Reality Check [TEMA].md`
+Nome: `pesquisas/reality-checks/YYYY-MM-DD — Reality Check [TEMA].md`
 
 Frontmatter:
 ```yaml
@@ -145,6 +145,7 @@ status: concluída
 relacionado:
   - "[[planos/01-plano-viabilidade]]"
   # inclua aqui arquivos com score > 5.0 nos resultados RAG
+  # NUNCA adicionar "[[HOME]]" — links para HOME são proibidos em subarquivos
 ---
 ```
 
@@ -182,9 +183,9 @@ Estrutura da nota:
 diretamente desta análise]
 ```
 
-#### b) Atualizar `pesquisas/PESQUISAS.md`
+#### b) Atualizar `pesquisas/REALITY-CHECKS.md`
 
-Adicione um novo bloco no início da lista de pesquisas:
+Substitua o callout `> [!note] Nenhuma análise ainda` pelo bloco abaixo (ou adicione antes do comentário template se já houver análises):
 
 ```markdown
 ### YYYY-MM-DD — Reality Check [TEMA]
@@ -197,7 +198,7 @@ Adicione um novo bloco no início da lista de pesquisas:
 
 | Campo | Detalhe |
 |-------|---------|
-| Arquivo | [[pesquisas/YYYY-MM-DD — Reality Check [TEMA]\|Ver análise]] |
+| Arquivo | [[pesquisas/reality-checks/YYYY-MM-DD — Reality Check [TEMA]\|Ver análise]] |
 | Status | concluído |
 | Gargalo | [tecnologia / distribuição / confiança / regulação / capital] |
 | Próxima validação | [em 1 frase] |

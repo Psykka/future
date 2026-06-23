@@ -65,6 +65,18 @@ updated: 2026-06-22
 | Revisitar | quando decidir avançar para validação formal do segmento SST |
 | Pode virar | `/research-note` — próxima pesquisa a executar |
 
+### 2026-06-23 — Perguntas que Podem Matar a Hipótese SST
+
+> [!warning] Roteiro de falsificação — SST
+> 10 perguntas para testar se a hipótese SST sobrevive ao contato com técnicos reais. Define o que precisaria ser verdade para avançar e o que cada resposta significa.
+
+| Campo | Detalhe |
+|-------|---------|
+| Arquivo | [[notas/2026-06-23 — Perguntas que Podem Matar a Hipótese SST\|Ver nota]] |
+| Ciclo | ativa |
+| Revisitar | antes de qualquer pesquisa ou entrevista sobre SST |
+| Papel | guia de validação — usar antes de cada `/research-note` sobre SST |
+
 ### 2026-06-22 — Quem Já Tem os Clientes?
 
 > [!tip] Possível plano — mapeamento de canal
