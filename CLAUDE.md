@@ -208,6 +208,7 @@ Se qualquer resposta for "sim", atualizar `HOME.md` imediatamente — não aguar
 | **Fluxo GO/NO-GO: ver upside máximo** | `steelman` → salva em `pesquisas/steelmans/` |
 | **Fluxo GO/NO-GO: pressure-test completo** | `new-council` → salva em `council/` |
 | Pressure-test avulso (sem salvar no vault) | `llm-council` |
+| **Antes de executar qualquer nova ideia ou ângulo** | `reality-check` → salva em `pesquisas/` |
 | **Revisão semanal do projeto** | `revisao-semanal` → briefing no chat |
 | **Fechar o loop de uma decisão passada** | `revisao-decisao` → atualiza o plano |
 | Corrigir formatação de nota para Obsidian | `obsidian-format` |
@@ -215,7 +216,7 @@ Se qualquer resposta for "sim", atualizar `HOME.md` imediatamente — não aguar
 | Novas notas adicionadas → atualizar índice RAG | `rebuild-index` |
 
 > **Fluxo para decisões irreversíveis:**
-> `/steelman` → `/pre-mortem` → `/new-council` se ainda houver dúvida → `/new-plano` (com `tipo-decisao: irreversivel`)
+> `/reality-check` (clareza estratégica) → `/steelman` → `/pre-mortem` → `/new-council` se ainda houver dúvida → `/new-plano` (com `tipo-decisao: irreversivel`)
 
 > **Ritual semanal:**
 > `/revisao-semanal` → para cada plano vencido → `/revisao-decisao`
